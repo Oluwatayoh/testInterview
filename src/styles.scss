@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #ef5181;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ef5181;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #5a3741;
+}
+
+.sc-part {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: #ffffff;
+}
+
+.bg-txt {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.md-txt {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.bt-action {
+  border-radius: 10px;
+  background-color: #28123e;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 170px;
+  font-weight: 600;
+  text-align: center;
+}
+.bt-action:hover {
+  box-shadow: 1px 1px 4px 2px rgb(195, 195, 195);
+  cursor: pointer;
+}
+
+.vl {
+  border-left: 1px solid #a3a3a3;
+  height: 100px;
+}
+
+.intro {
+  text-align: left !important;
+  h3 {
+    color: #ef5181;
+  }
+  .md-txt,
+  p {
+    color: #28123e;
+  }
+  p {
+    line-height: 50px;
+    font-weight: 600;
+  }
+}

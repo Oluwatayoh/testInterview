@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192.5" height="62.836" viewBox="0 0 192.5 62.836">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#fff}.cls-2{font-size:41px;font-family:Montserrat-Medium,Montserrat;font-weight:500}
+        </style>
+    </defs>
+    <g id="Group_54" data-name="Group 54" transform="translate(-90.5 -56)">
+        <g id="Group_1" data-name="Group 1" transform="translate(62 -1198.5)">
+            <path id="Path_1" d="M0 0h41.89L23.152 19.133H0z" class="cls-1" data-name="Path 1" transform="rotate(90 -601.823 673.622)"/>
+            <path id="Path_2" d="M0 0h41.89L23.152 19.133H0z" class="cls-1" data-name="Path 2" transform="rotate(-90 662.445 633.945)"/>
+        </g>
+        <text id="Helgo" class="cls-2" transform="translate(158 102)">
+            <tspan x="0" y="0">Helgo</tspan>
+        </text>
+    </g>
+</svg>
