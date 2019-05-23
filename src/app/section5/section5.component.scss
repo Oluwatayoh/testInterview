@@ -1,0 +1,62 @@
+.bg-wrp {
+  background-attachment: inherit;
+  background-repeat: repeat-x;
+  margin-top: 50px;
+  align-content: center;
+  align-items: center;
+  display: grid;
+  margin-bottom: 20px;
+  /* flex-direction: column; */
+}
+
+.intro {
+  text-align: center !important;
+}
+
+img {
+  border-radius: 10px;
+  width: 150px;
+}
+
+.heroes {
+  background-image: url(/assets/images/Path335.svg);
+  background-attachment: inherit;
+  background-repeat: repeat-x;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  background-size: contain;
+  background-position: center;
+  .hr-pro {
+    display: grid;
+    text-align: center;
+    h6 {
+      color: #ef5181;
+      margin-top: 0.5rem;
+    }
+    .proff {
+      font-size: 12px;
+      color: #28123e;
+    }
+  }
+}
+
+@media (max-width: 767px) and (max-width: 900px) {
+  .heroes{
+    background-image: url(/assets/images/Path335.svg);
+    background-attachment: inherit;
+    background-repeat: repeat-x;
+    margin-top: 48px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline-grid;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .hr-pro{
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+}

@@ -8,8 +8,8 @@
     font-size: 18px;
     font-weight: 700;
   }
-  p{
-      font-size: 13px;
+  p {
+    font-size: 13px;
   }
 }
 
@@ -17,5 +17,16 @@
   max-width: 1440px;
   .row {
     align-items: center;
+  }
+}
+
+@media (max-width: 767px) and (max-width: 900px) {
+  /* For desktop: */
+  .inner-wrap {
+    margin: 5px !important;
+  }
+
+  .vl {
+    display: none !important;
   }
 }

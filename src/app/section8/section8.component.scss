@@ -1,0 +1,158 @@
+.bg-wrap {
+  background-image: url(/assets/images/back3.png);
+  background-attachment: inherit;
+  background-repeat: repeat-x;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  text-align: center !important;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 55px;
+  box-shadow: 0 16px 50px 0 rgba(125, 199, 221, 0.22);
+  padding: 40px;
+  align-items: center;
+  border: none;
+}
+.cd1 {
+  min-width: 300px;
+  margin: -15px;
+  img {
+    width: 50px;
+    margin: 10px;
+  }
+  h5,
+  .userMax {
+    margin: 10px;
+  }
+}
+
+.cd2 {
+  padding: 50px;
+  min-width: 350px;
+  z-index: 2;
+  img {
+    width: 70px;
+    margin: 20px;
+  }
+  h5,
+  .userMax {
+    margin: 20px;
+    font-size: 2rem;
+  }
+  .userMax {
+    padding: 10px;
+  }
+  .amnt {
+    font-size: 3.5rem;
+  }
+}
+.userMax {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  p {
+    margin-bottom: 0px !important;
+    font-size: 12px;
+  }
+}
+
+.amnt {
+  color: #f3658e;
+}
+.priceBTN {
+  color: #f3658e;
+  border-radius: 15px;
+  border: 2px solid #f3658e;
+  font-size: 12px;
+  padding: 7px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 60%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.priceBTN:hover,
+.selected {
+  background-color: #f3658e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.container {
+  margin: 30px;
+}
+
+@media (max-width: 767px) and (max-width: 900px) {
+  .bg-wrap {
+    background-image: none;
+    background-attachment: inherit;
+    background-repeat: repeat-x;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    border-radius: 35px;
+    box-shadow: 0 16px 50px 0 rgba(125, 199, 221, 0.22);
+    padding: 10px;
+    align-items: center;
+    border: none;
+  }
+  .cd1 {
+    min-width: 180px;
+    margin: -15px;
+    img {
+      width: 30px;
+      margin: 10px;
+    }
+    h5,
+    .userMax {
+      margin: 10px;
+    }
+  }
+
+  .cd2 {
+    padding: 10px;
+    min-width: 250px;
+    z-index: 2;
+    img {
+      width: 60px;
+      margin: 15px;
+    }
+    h5,
+    .userMax {
+      margin: 20px;
+      font-size: 2rem;
+    }
+    .userMax {
+      padding: 2px;
+    }
+    .amnt {
+      font-size: 3.5rem;
+    }
+  }
+}

@@ -46,9 +46,8 @@ body {
   border-radius: 10px;
   background-color: #28123e;
   color: #ffffff;
-  padding: 15px;
-  margin-top: 8%;
   margin-bottom: 8%;
+  padding: 10px;
   width: 170px;
   font-weight: 600;
   text-align: center;
@@ -76,4 +75,58 @@ body {
     line-height: 50px;
     font-weight: 600;
   }
+}
+
+.nv-dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  .dot1 {
+    color: #dbdbdb !important;
+    font-size: 80px;
+    cursor: pointer;
+  }
+  .dot2 {
+    color: #ef5181 !important;
+    font-size: 80px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767px)  and (max-width: 900px){
+  .intro {
+    h3 {
+      color: #ef5181;
+      font-size: 1rem !important;
+      text-decoration: underline !important;
+    }
+  }
+  .intro p {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 9px;
+  }
+  .md-txt {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+
+  .nv-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    .dot1{
+      font-size: 70px;
+    }
+  } 
 }
